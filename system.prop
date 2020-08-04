@@ -206,3 +206,12 @@ persist.vendor.radio.data_con_rprt=1
 #lct liuxuan add the dom ignore time
 persist.vendor.radio.ignore_dom_time=15
 
+# Enable Camera2 API
+persist.camera.HAL3.enabled=1
+persist.camera.eis.enabled=1
+persist.camera.is_mode=4
+persist.camera.stats.test=5
+persist.vendor.camera.HAL3.enabled=1
+persist.vendor.camera.eis.enabled=1
+persist.vendor.camera.is_mode=4
+persist.vendor.camera.stats.test=5
