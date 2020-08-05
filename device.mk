@@ -34,8 +34,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-cherish/lineage-sdk
-#     $(LOCAL_PATH)/overlay-cherish/packages/apps/Snap
+    $(LOCAL_PATH)/overlay-cherish/lineage-sdk \
+    $(LOCAL_PATH)/overlay-cherish/packages/apps/Snap
 
 # Frameworks Res
 PRODUCT_ENFORCE_RRO_TARGETS := \
@@ -170,8 +170,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
     vendor.qti.hardware.camera.device@1.0 \
-    libxml2
-#     Snap
+    libxml2 \
+    Snap
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -509,5 +509,4 @@ PRODUCT_BOOT_JARS += \
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
-   «XiaomiParts
-
+    XiaomiParts
