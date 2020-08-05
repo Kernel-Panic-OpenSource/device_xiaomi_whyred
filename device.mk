@@ -37,6 +37,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-cherish/lineage-sdk
 #     $(LOCAL_PATH)/overlay-cherish/packages/apps/Snap
 
+# Frameworks Res
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/whyred
 
@@ -501,4 +505,5 @@ PRODUCT_BOOT_JARS += \
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
-   XiaomiParts
+   «XiaomiParts
+
